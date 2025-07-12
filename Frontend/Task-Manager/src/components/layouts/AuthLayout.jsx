@@ -10,7 +10,7 @@ const AuthLayout = ({ children }) => {
       </div>
 
       {/* Right Side Image Panel */}
-      <div className="hidden md:flex w-[40vw] h-screen items-center justify-center bg-blue-50 bg-[url('/bg-img.png')] bg-cover bg-no-repeat bg-center overflow-hidden p-8">
+      <div className="hidden md:flex w-[40vw] h-screen items-center justify-center bg-blue-50 bg-[url('/bg-img.jpg')] bg-cover bg-no-repeat bg-center overflow-hidden p-8">
         <img src={UI_img} className="w-64 lg:w-[90%]" alt="Auth" />
       </div>
     </div>
